@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body{
+    height: 100vh;
+    background-image:url(https://easyroster.net/wp-content/uploads/2022/07/caucasian-businessman-showing-clock-time-management-scaled.jpeg
+    );
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+ }
+
+ .container{
+    padding: 1rem;
+    max-width: 900px;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(20px);
+ }
+
+ .time,.h{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #efe0e0;
+    font-style: bold;
+ }
+
+ p{
+    color: #150f5a;
+ }
+
+ 
+ button{
+    align-items: baseline;
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #f8f8f8;
+    font-size: 1.1rem;
+
+ }
+
+ button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    color: #0a5a5a;
+ }
+
+
+ .footer{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   width: 100%;
+   padding: 10px;
+   font-size: 15px;
+}
+
+.fa-github{
+   color: var(--font);
+   font-size: 24px;
+   transition: transform 0.3s ease-in-out;
+}
